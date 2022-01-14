@@ -122,4 +122,5 @@ class SquarePlus(nn.Module):
 
     def forward(self, x):
         x = 0.5 * (x + torch.sqrt(torch.square(x) + self.b))
-        return x
+        return x 
+
